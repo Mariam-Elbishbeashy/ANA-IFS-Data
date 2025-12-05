@@ -92,26 +92,31 @@ This dataset provides a **consolidated, high-diversity emotional speech resource
   By combining multiple high-quality emotional speech datasets into a single curated resource, it offers **improved generalizability**, **broader emotional representation**, and **enhanced suitability for advanced academic and scientific research**.
 ---
 
-## **B. Facial Expression Dataset**
+### B. Facial Expression Dataset  
+**Location:** `FacialEmotionsDataset/`  
 
-**Location:** `FacialEmotionsDataset/` 
+**Source datasets:**  
+- FER2013  
+- CK+ (Cohn-Kanade Extended)  
 
-### **Source datasets**
-- [FER2013](https://www.kaggle.com/datasets/msambare/fer2013)  
-- [CK+ (Cohn-Kanade Extended)](https://www.kaggle.com/datasets/davilsena/ckdataset)
+**Contents in this repository:**  
+- Cleaned grayscale facial images (48×48) and labeled expression images.  
+- CK+ sequence-based images including transitions: neutral → expression.  
 
-### **Contents in this repository**
-- Cleaned grayscale facial images (48×48) and labeled expression images.
-- CK+ sequence-based images including transitions: neutral → expression.
-- Emotion labels include:
-  - anger, disgust, fear, happiness, sadness, surprise, neutral  
-  - (optional: contempt in CK+)
+**Emotion labels include:**  
+- anger, disgust, fear, happiness, sadness, surprise, neutral  
+- (optional: contempt in CK+)  
 
-### **Why combine FER2013 + CK+**
+**Why combine FER2013 + CK+?**  
 - **FER2013** → Real-world, diverse, imperfect images → robust learning.  
 - **CK+** → Controlled, high-quality expressions → precise modeling.  
+- Together they provide balanced training data for facial emotion recognition.  
 
-Together they provide balanced training data for **facial emotion recognition**.
+**Importance of Facial Expression Extraction:**  
+Facial expression extraction is essential because it enables the system to accurately recognize the user’s emotional state—such as *happiness, anger, sadness, fear, or surprise*. Detecting these expressions helps the model understand how the user feels at a given moment, which is crucial for:  
+- Building emotion-aware systems  
+- Improving interaction quality  
+- Enabling real-time adaptive responses
 
 ---
 
@@ -189,33 +194,40 @@ This dataset provides a *high-quality resource for NLP research* and development
   By consolidating multiple high-quality text datasets into a single curated resource, it offers *broad emotional coverage, diverse conversational contexts, and improved generalizability* for machine learning and NLP tasks.
 ---
 
-## **D. Hand Gesture Dataset**
+## D. Hand Gesture Dataset
 
 **File:** `HandGesturesDataset.csv`
 
-This repository includes a gesture dataset **based on the HaGRID dataset**:
+This repository includes a gesture dataset *based on the HaGRID dataset*:  
+- **HaGRID** → [https://www.kaggle.com/datasets/kapitanov/hagrid](https://www.kaggle.com/datasets/kapitanov/hagrid)  
 
-- **HaGRID** → https://www.kaggle.com/datasets/kapitanov/hagrid  
-
-### **Contents in repository**
-- Curated subset of HaGRID-style gestures:
-  - stop, peace, okay, fist, thumbs-up, palm, victory, etc.
-- Standardized metadata:
+### Contents in repository
+- Curated subset of HaGRID-style gestures:  
+  - stop, peace, okay, fist, thumbs-up, palm, victory, etc.  
+- Standardized metadata:  
   - gesture label  
   - file path  
   - lighting (if applicable)  
   - dataset origin  
-- Balanced class distribution.
+- Balanced class distribution
 
-### **Purpose**
-Useful for:
+### Purpose
+Useful for:  
 - human–computer interaction  
 - multimodal fusion  
 - gesture recognition systems  
 
+### Importance of Hand Gesture Extraction
+Hand gesture extraction is crucial because it identifies non-verbal actions such as **ok, hello, peace sign, angry, perfect, stop, thumbs-up, and fist**. These gestures provide meaningful cues about the user’s intention or emotional state, enabling the system to:  
+- interpret commands  
+- understand user engagement  
+- enhance multimodal interaction  
+
+Detecting hand gestures strengthens communication between the user and the AI system by adding an additional layer of context beyond speech and facial expression.
+
 ---
 
-# **E. Synthetic IFS Questionnaire Dataset**
+## **E. Synthetic IFS Questionnaire Dataset**
 
 
 It contains **1.9 million+ synthetic psychological samples**.
