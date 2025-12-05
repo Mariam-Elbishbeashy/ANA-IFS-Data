@@ -3,7 +3,7 @@
 This repository (`ANA-IFS-Data`) contains curated multimodal datasets including:
 
 - **FacialEmotionsDataset/** → Training and testing images, CK+ metadata CSV  
-- **emotions/** → Emotion-labeled images for model-specific classification  
+- **emotions/** → Audio files labeled by emotion for model-specific voice emotion classification
 - **questionnaire_data/** → Split CSV files of 34 IFS questionnaire questions  
 - **ANA_Healing_Plan_Dataset.xlsx** → Excel sheet for IFS character healing plans  
 - **HandGesturesDataset.csv** → Hand gesture dataset for multimodal integration  
