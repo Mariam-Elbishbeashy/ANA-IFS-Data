@@ -92,7 +92,7 @@ This dataset provides a **consolidated, high-diversity emotional speech resource
   By combining multiple high-quality emotional speech datasets into a single curated resource, it offers **improved generalizability**, **broader emotional representation**, and **enhanced suitability for advanced academic and scientific research**.
 ---
 
-### B. Facial Expression Dataset  
+## B. Facial Expression Dataset  
 **Location:** `FacialEmotionsDataset/`  
 
 **Source datasets:**  
@@ -300,24 +300,33 @@ created based on IFS MAPPING.
 34. Which character label best represents this part's personality? *(Final classification column)*
 
 ---
-### F. ANA Healing Plan Dataset  
+## F. ANA Healing Plan Dataset
 
-The **ANA Healing Plan Dataset** (`ANA_Healing_Plan_Dataset.xlsx`) contains structured information designed for **IFS-based psychological mapping and intervention planning**. It provides guidance on identifying, understanding, and supporting internal system parts (IFS “characters”) for therapeutic or research purposes.
+**File:** `ANA_Healing_Plan_Dataset.xlsx`
 
-#### Contents:
+The *ANA Healing Plan Dataset* contains structured information designed for *IFS-based psychological mapping and intervention planning*. It provides guidance on identifying, understanding, and supporting internal system parts (IFS “characters”) for therapeutic or research purposes.
+
+### Contents
 - **IFS Characters / Subpersonalities:**  
-  - Each row represents one of the 19 IFS characters identified for the ANA model.  
+  - Each row represents one of the 19 IFS characters used in the ANA model.  
 - **Attributes & Metadata:**  
-  - Character name, role, typical emotional patterns, triggers, and coping strategies.  
+  - Character name, role, emotional tendencies, triggers, defensive patterns, and behavioral signals.  
 - **Healing & Intervention Guidelines:**  
-  - Suggested approaches for working with each character, including reflective prompts, supportive dialogues, and therapeutic activities.  
+  - Every character is assigned a **unique, individualized healing plan**.  
+  - Plans include **step-by-step healing procedures**, such as grounding steps, reflective exercises, supportive internal dialogues, and emotional release techniques.  
 - **Integration with Questionnaire Data:**  
-  - Each character maps to relevant questionnaire items, allowing **automated or semi-automated evaluation** and research analysis.  
+  - Characters are linked to specific questionnaire items, enabling *automated evaluation*, pattern recognition, and deeper research analysis.
 
-#### Purpose:
-- Supports **IFS-style therapeutic modeling** in research or AI-assisted interventions.  
-- Can be used alongside **voice, facial, and text datasets** to study correlations between emotional expression, internal parts, and therapeutic outcomes.  
-- Ideal for researchers or developers building **multimodal emotion recognition, psychological analysis, or personalized intervention systems**.
+### Purpose
+- Supports *IFS-style therapeutic modeling* in research or AI-assisted interventions.  
+- Can be used with *voice, facial, and gesture datasets* to correlate emotional states with internal parts and healing progress.  
+- Ideal for researchers or developers working on *psychological analysis, adaptive intervention systems, and multimodal emotion recognition*.
+
+### Importance of the Healing Plan Dataset
+The dataset is crucial because **each character receives its own dedicated and personalized healing plan**, reflecting its fears, needs, and emotional patterns.  
+These plans include **clear, sequential steps** that guide the user from emotional awareness to regulation, self-support, and internal harmony.  
+By combining character-specific interventions with real-time multimodal emotion signals, ANA can deliver **highly tailored emotional healing experiences**, moving beyond simple recognition toward meaningful psychological support.
+.
   
 ---
 
